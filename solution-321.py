@@ -15,9 +15,11 @@ p = 1
 counter_q = change_due // q
 print(counter_q, " quarters")
 change_due = change_due % q
-
+if change_due == 0:
+    print(0, " dimes")
+    print(0, " pennies")
 ##if quarters are not sufficient for change then go to dimes
-if change_due != 0:        
+elif change_due != 0:        
     counter_d = change_due // d
     change_due = change_due % d
     print(counter_d, " dimes")
