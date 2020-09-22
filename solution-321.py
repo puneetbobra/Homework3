@@ -1,7 +1,7 @@
 #Calculate change using fewest number of coins
 
 ##User Input
-user_input = int(input("Enter purchase price of an item (less than 100 cents): "))
+user_input = int(input("Enter purchase price in cents (less than 100 cents): "))
 
 ##assuming customer paid $1 which is 100 cents, calculate change due to the customer
 change_due = 100 - user_input
